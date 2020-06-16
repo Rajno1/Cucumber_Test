@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-12T00:29:23.633Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24899353,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "checking the login functionality",
+        "description": "",
+        "id": "cheching-login-feature;checking-the-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 463585,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155680715,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter url",
+            "match": {
+              "location": "login_Steps.user_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4822749,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "login_Steps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1749433,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "login_Steps.clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1903203,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user account will direct to home page",
+            "match": {
+              "location": "login_Steps.user_account_will_direct_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "cheching login feature",
+    "description": "",
+    "id": "cheching-login-feature",
+    "keyword": "Feature",
+    "uri": "file:com.features/login.feature",
+    "tags": []
+  }
+]
